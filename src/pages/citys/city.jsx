@@ -10,6 +10,9 @@ import back from '../../assets/icons/back.png'
 import forw from '../../assets/icons/forw.png'
 import './city.css'
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const CityCarousel = () => {
   const sliderRef = useRef(null);
 

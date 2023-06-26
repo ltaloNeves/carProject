@@ -11,6 +11,8 @@ import './slide.css'
 
 import back from '../assets/icons/back.png'
 import forw from '../assets/icons/forw.png'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const ImageCarousel = () => {
   const sliderRef = useRef(null);
