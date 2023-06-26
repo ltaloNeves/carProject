@@ -1,17 +1,14 @@
 import React, { useRef } from "react";
-{/*import Slider from "react-slick";*/}
+import Slider from "react-slick";  
 import city1 from '../../assets/cities/bh.png';
 import city2 from '../../assets/cities/rj.png';
 import city3 from '../../assets/cities/sal.png';
 import city4 from '../../assets/cities/sc.png';
 import city5 from '../../assets/cities/slz.png';
 import city6 from '../../assets/cities/sp.png'; 
-import back from '../../assets/icons/back.png'
-import forw from '../../assets/icons/forw.png'
-import './city.css'
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import back from '../../assets/icons/back.png';
+import forw from '../../assets/icons/forw.png';
+import './city.css'  
 
 const CityCarousel = () => {
   const sliderRef = useRef(null);

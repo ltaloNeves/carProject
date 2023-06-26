@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-{/*import Slider from "react-slick";*/}
+import Slider from "react-slick";
 import cars1 from '../assets/img/CACT.png';
 import cars2 from '../assets/img/COLF.png';
 import cars3 from '../assets/img/COMP.png';
@@ -11,8 +11,7 @@ import './slide.css'
 
 import back from '../assets/icons/back.png'
 import forw from '../assets/icons/forw.png'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 
 const ImageCarousel = () => {
   const sliderRef = useRef(null);
