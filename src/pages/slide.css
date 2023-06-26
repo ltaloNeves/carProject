@@ -1,0 +1,38 @@
+.carousel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 450px;  
+    padding: 20px;
+    margin: 60px;
+}
+
+.carousel-container div{
+    width: 100%;
+    height: auto;
+ 
+}
+.carousel-image {
+    margin-right: 50px; /* Adicione o valor de margem desejado */
+}
+
+.click{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0);
+    border: solid #173F1E;
+}
+
+.carsImgInfo p{
+    text-align: center;
+    color: #173F1E; 
+    font-size: 20px;
+}
+
+
+  

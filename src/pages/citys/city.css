@@ -1,0 +1,51 @@
+.carouselContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 450px;  
+    padding: 20px;
+    margin: 60px;
+}
+
+.carouselContainer div{
+    width: 100%;
+    height: auto;
+    
+ 
+}
+.carouselDois {
+
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 50px; 
+}
+
+.clickButton{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0);
+    border: solid #173F1E;
+    margin: 20px;
+}
+
+.cityImg p{
+    text-align: center;
+    color: #173F1E; 
+    font-size: 20px;
+ 
+}
+.cityImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+  
