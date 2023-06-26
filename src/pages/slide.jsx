@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Slider from "react-slick";
+{/*import Slider from "react-slick";*/}
 import cars1 from '../assets/img/CACT.png';
 import cars2 from '../assets/img/COLF.png';
 import cars3 from '../assets/img/COMP.png';
